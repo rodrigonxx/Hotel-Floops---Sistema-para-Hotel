@@ -54,19 +54,6 @@ fun menu() {
     }
 }
 
-fun cadastrarHospedes() {
-    if (!validarSenha()) {
-        println("Senha incorreta!")
-        menu()
-        return
-    }
-
-    println("\n--- Cadastro de Hóspedes ---")
-    // Implementação do cadastro de hóspedes aqui
-    println("Funcionalidade de cadastro de hóspedes será implementada aqui.")
-    menu()
-}
-
 fun sairDoHotel() {
     println("Você deseja sair?\n Informe 1 para \"sim\" e 0 para \"não\"")
     val confirma = readln().toBoolean() // digite true ou false ou 1 ou 0
